@@ -1,4 +1,4 @@
-![Algorithm](https://github.com/user-attachments/assets/b57b1514-c15d-4bc8-9798-993eb3f43eb2)# ⚡ Dynamic Timestamp Validation with Apache Spark
+⚡ Dynamic Timestamp Validation with Apache Spark
 
 This project implements a **Dynamic Timestamp Validation Algorithm** based on a decision flowchart. It processes message timestamps using Apache Spark and classifies whether a message should be **processed** or **skipped**, based on a set of timestamp consistency rules.
 
