@@ -12,6 +12,8 @@ The logic used is derived from the decision flowchart below:
 
 
 
+
+
 We use three timestamp columns from the dataset:
 
 | Field in Dataset         | Mapped to             |
