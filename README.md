@@ -6,7 +6,9 @@ This project implements a **Dynamic Timestamp Validation Algorithm** based on a 
 
 The logic used is derived from the decision flowchart below:
 
-![Algorithm]
+## Algorithm
+
+
 
 ![Algorithm](https://github.com/user-attachments/assets/fbb3c1fd-8767-4e62-bc21-3685e197e0d2)
 
