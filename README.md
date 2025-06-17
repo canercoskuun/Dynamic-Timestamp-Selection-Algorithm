@@ -1,8 +1,8 @@
-⚡ Dynamic Timestamp Validation with Apache Spark
+## Dynamic Timestamp Validation with Apache Spark
 
 This project implements a **Dynamic Timestamp Validation Algorithm** based on a decision flowchart. It processes message timestamps using Apache Spark and classifies whether a message should be **processed** or **skipped**, based on a set of timestamp consistency rules.
 
-## 🔍 Overview
+##  Overview
 
 The logic used is derived from the decision flowchart below:
 
@@ -18,15 +18,15 @@ We use three timestamp columns from the dataset:
 
 ![Algorithm](https://github.com/user-attachments/assets/fbb3c1fd-8767-4e62-bc21-3685e197e0d2)
 
-## 📁 Dataset
+## Dataset
 
 The dummy dataset provided (`dummy_data.csv`) contains example records with various timestamp combinations to validate the flowchart rules.
 
-## 🧠 Algorithm Logic
+##  Algorithm Logic
 
 Each row in the dataset is classified as either:
-- ✅ **Message Processed**
-- ❌ **Message Not Processed**
+- ✅ **Message Processed(NOT NULL)**
+- ❌ **Message Not Processed(NULL)**
 
 The decision is based on conditions such as:
 - Missing or invalid timestamps
