@@ -8,11 +8,6 @@ The logic used is derived from the decision flowchart below:
 
 ## Algorithm
 
-
-
-![Algorithm](https://github.com/user-attachments/assets/fbb3c1fd-8767-4e62-bc21-3685e197e0d2)
-
-
 We use three timestamp columns from the dataset:
 
 | Field in Dataset         | Mapped to             |
@@ -20,6 +15,8 @@ We use three timestamp columns from the dataset:
 | `signal_timestampt`      | `internalRTCTime`     |
 | `signal_oem_timestmap`   | `modemUTCDateTime`    |
 | `ts`                     | `ingestionTime`       |
+
+![Algorithm](https://github.com/user-attachments/assets/fbb3c1fd-8767-4e62-bc21-3685e197e0d2)
 
 ## 📁 Dataset
 
