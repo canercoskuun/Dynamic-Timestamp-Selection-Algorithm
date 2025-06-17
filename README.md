@@ -8,7 +8,8 @@ The logic used is derived from the decision flowchart below:
 
 ![Algorithm]
 
-![Uploading Algorithm.png…]([dummy_data.csv](https://github.com/user-attachments/files/20782084/dummy_data.csv))
+![Algorithm](https://github.com/user-attachments/assets/fbb3c1fd-8767-4e62-bc21-3685e197e0d2)
+
 
 We use three timestamp columns from the dataset:
 
